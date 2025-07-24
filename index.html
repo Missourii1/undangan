@@ -257,22 +257,7 @@
       hadirBtn.textContent = "Tunggu aku ya ❤️";
       hadirBtn.style.background = "#aaa";
       hadirBtn.style.cursor = "default";
-      response.innerHTML = `
-        <h2>Urutan Malam Kita</h2>
-        <ol>
-          <li>Menjemputmu dengan senyuman</li>
-          <li>Makan malam dengan bahagia</li>
-          <li>Gift Reveal</li>
-        </ol>
-        <button class='close-btn' onclick='closePopup()'>Tutup</button>
-      `;
-      response.classList.add('active');
     });
-
-    function closePopup() {
-      response.classList.remove('active');
-      setTimeout(() => response.innerHTML = '', 400);
-    }
   </script>
 </body>
 </html>
